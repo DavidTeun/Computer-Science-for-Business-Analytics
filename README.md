@@ -22,10 +22,9 @@ This function takes as input the clustering treshhold, the dissimilarity matrix,
 This function uses the output of the clustering algorithm, the data set and the candidate matrix in order to evaluate the performance of the method.
 
 **dupepredictor**
-This function takes all functions into a single function in order to conveniently predict duplicates and evaluate the method
+This function takes all functions into a single function in order to conveniently predict duplicates and evaluate the method using pair quality, pair completeness, F1 and F1*.
 
-**booteval**
+**booteval & tune**
+This function computes bootstrapes and outputs bootstrap results and averages. For the bootstrap results, test data sets are used. For the two tune functions, train data sets are used.
 
-
-**tune**
-Two tune functions are defined in order to optimalize the choice of bands, rows and the clustering threshold. 
+**Coding buddy** Florien Muntinga
